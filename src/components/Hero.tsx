@@ -1,5 +1,5 @@
 
-import { ChevronDown, Code, Database, Zap } from 'lucide-react';
+import { ChevronDown, Code, Star, Trophy, Github } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -25,6 +25,7 @@ const Hero = () => {
           <div className="flex justify-center gap-3 mb-8">
             <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary/20 transition-all duration-300 hover-scale">ML Engineer</span>
             <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary/20 transition-all duration-300 hover-scale">Backend Expert</span>
+            <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary/20 transition-all duration-300 hover-scale">OSS Contributor</span>
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
@@ -34,31 +35,31 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-6 max-w-2xl mx-auto opacity-90">
-            Making AI accessible to everyone through scalable backend solutions
+            Making AI accessible to everyone • Microsoft OSS Contributor
           </p>
           
           {/* Minimalist Metrics */}
           <div className="flex justify-center gap-8 mb-12">
             <div className="group cursor-pointer">
               <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
-                <Code size={20} className="group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-2xl font-bold">4+</span>
+                <Github size={20} className="group-hover:scale-110 transition-transform duration-300" />
+                <span className="text-2xl font-bold">18k+</span>
               </div>
-              <p className="text-sm text-muted-foreground">Years</p>
+              <p className="text-sm text-muted-foreground">Stars</p>
             </div>
             <div className="group cursor-pointer">
               <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
-                <Database size={20} className="group-hover:scale-110 transition-transform duration-300" />
+                <Trophy size={20} className="group-hover:scale-110 transition-transform duration-300" />
+                <span className="text-2xl font-bold">1st</span>
+              </div>
+              <p className="text-sm text-muted-foreground">JAXA '25</p>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
+                <Star size={20} className="group-hover:scale-110 transition-transform duration-300" />
                 <span className="text-2xl font-bold">Q2</span>
               </div>
               <p className="text-sm text-muted-foreground">Published</p>
-            </div>
-            <div className="group cursor-pointer">
-              <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
-                <Zap size={20} className="group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-2xl font-bold">2nd</span>
-              </div>
-              <p className="text-sm text-muted-foreground">JAXA</p>
             </div>
           </div>
           
