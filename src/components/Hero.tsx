@@ -1,5 +1,5 @@
 
-import { ChevronDown, Code, Star, Trophy, Github } from 'lucide-react';
+import { ChevronDown, Code, Star, Trophy } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -35,17 +35,17 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-6 max-w-2xl mx-auto opacity-90">
-            Making AI accessible to everyone • Microsoft OSS Contributor
+            Making AI accessible to everyone with scalable solutions
           </p>
           
           {/* Minimalist Metrics */}
           <div className="flex justify-center gap-8 mb-12">
             <div className="group cursor-pointer">
               <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
-                <Github size={20} className="group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-2xl font-bold">18k+</span>
+                <Code size={20} className="group-hover:scale-110 transition-transform duration-300" />
+                <span className="text-2xl font-bold">4+</span>
               </div>
-              <p className="text-sm text-muted-foreground">Stars</p>
+              <p className="text-sm text-muted-foreground">Years Exp</p>
             </div>
             <div className="group cursor-pointer">
               <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
@@ -57,9 +57,9 @@ const Hero = () => {
             <div className="group cursor-pointer">
               <div className="flex items-center gap-2 mb-1 group-hover:text-primary transition-colors duration-300">
                 <Star size={20} className="group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-2xl font-bold">Q2</span>
+                <span className="text-2xl font-bold">Microsoft</span>
               </div>
-              <p className="text-sm text-muted-foreground">Published</p>
+              <p className="text-sm text-muted-foreground">OSS Contrib</p>
             </div>
           </div>
           
